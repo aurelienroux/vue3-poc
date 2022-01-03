@@ -28,7 +28,7 @@ export default defineComponent({
     // return { ...toRefs(state) };
 
     // 2) REFS *******************************************
-    const name = ref("Mario");
+    const name = ref<string>("Mario");
     const age = ref<number | string>(22); // typed as a generic
 
     // rewriting the ref age value, can be a number or a string because of line 30
