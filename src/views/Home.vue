@@ -1,11 +1,13 @@
 <template>
-  <div class="font-bold bg-yellow-300">name: {{ name }}</div>
-  <div>age: {{ age }}</div>
-  <h2>jobs</h2>
-  <div v-for="job in jobs" :key="job.id">
-    {{ job.title }} - {{ job.location }} - {{ job.salary }}$$$ - {{ job.id }}
+  <div class="p-6">
+    <div class="font-bold bg-yellow-300">name: {{ name }}</div>
+    <div>age: {{ age }}</div>
+    <h2>jobs</h2>
+    <div v-for="job in jobs" :key="job.id">
+      {{ job.title }} - {{ job.location }} - {{ job.salary }}$$$ - {{ job.id }}
+    </div>
+    <!-- <button @click="changeName('Zelda')">click</button> -->
   </div>
-  <!-- <button @click="changeName('Zelda')">click</button> -->
 </template>
 
 <script lang="ts">
