@@ -1,6 +1,13 @@
-import { ref, computed } from "vue";
+import { ref, Ref, computed } from "vue";
 
-export default function useSomethingElse() {
+export interface useSomethingElseType {
+  firstName: Ref<string>;
+  lastName: Ref<string>;
+  fullName: Ref<string>;
+  updateRealName: () => void;
+}
+
+export function useSomethingElse(): useSomethingElseType {
   const firstName = ref("Santa");
   const lastName = ref("Claus");
 
