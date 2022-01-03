@@ -20,7 +20,7 @@ export default defineComponent({
     // 1) REACTIVE ***************************************
     // const state = reactive({
     //   name: "Link",
-    //   age: 25 as string | number,
+    //   age: 25 as string | number, // as a type annotation
     // });
     // state.name = 99; typescript safeguard
     // return { ...toRefs(state) };
