@@ -1,5 +1,5 @@
 <template>
-  <div>name: {{ name }}</div>
+  <div class="font-bold bg-yellow-300">name: {{ name }}</div>
   <div>age: {{ age }}</div>
   <h2>jobs</h2>
   <div v-for="job in jobs" :key="job.id">
