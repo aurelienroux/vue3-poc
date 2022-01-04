@@ -18,7 +18,7 @@
 
     <hr class="mb-4" />
 
-    <div>
+    <div class="mb-4">
       <h2 class="font-bold">composable import</h2>
       <p>{{ firstName }}</p>
       <p>{{ lastName }}</p>

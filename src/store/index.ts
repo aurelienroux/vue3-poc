@@ -2,7 +2,7 @@ import { createStore } from "vuex";
 
 export default createStore({
   state: {
-    loading: false,
+    loading: false as boolean,
     session: {
       id: 123,
       name: "Montreal",
